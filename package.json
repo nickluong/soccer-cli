@@ -1,0 +1,13 @@
+{
+  "name": "soccer-cli",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "test": "cucumber-js test",
+    "main": "bun i && bun link && bun run ./src/index.ts ./data/sample-input.txt"
+  },
+  "devDependencies": {
+    "bun-types": "^0.1.0",
+    "cucumber": "^6.0.7"
+  }
+}
